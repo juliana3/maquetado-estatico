@@ -1,0 +1,157 @@
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+.espaciado{
+    height: 30px;
+}
+.container{
+    padding-bottom: 50px;
+}
+.nav-link {
+    text-decoration: none;
+    color: black;
+}
+.home{
+    background-image: url("../AP-PW-JA/IMAGENES/fondos/fondogral.jpg");
+    background-position: center;
+    background-size: cover;
+    padding : 1.3cm;
+}
+.quien-soy{
+    background-color: #E3716D;
+    padding-bottom: 150px;
+    padding-top:150px;
+}
+.estudios{
+    background-color : #76BFF9;
+    padding-bottom: 150px;
+    padding-top:150px;
+}
+.experiencia-lab{
+    background-color: #C576F9;
+    padding-bottom: 150px;
+    padding-top:150px;
+}
+.habilidades{
+    background-color: #6FFC96;
+    padding-bottom: 50px;
+    padding-top:150px;
+}
+.proyectos{
+    background-color: #FD3C76;
+    padding-bottom: 50px;
+    padding-top:150px;
+}
+.contacto{
+    background-image: url("../AP-PW-JA/IMAGENES/fondos/fondogral.jpg");
+    padding-bottom: 50px;
+    padding-top:80px;
+}
+#home h1{
+    font-size: 1.5cm;
+    font-weight: bolder;
+    text-shadow: 2px 2px 2px darkorange;
+}
+#home p{
+    font-size: 0.5cm;
+    font-weight: bolder;
+}
+#img-yo{
+    width: 350px;
+    height: 450px;
+    border-radius: 5px 40px;
+    border: 2px solid white ;
+}
+
+#quien-soy h2{
+    font-weight:bolder;
+    color:black;
+   text-align: left;
+   padding-top:150px;
+   padding-left:75px;
+}
+#quien-soy p{
+    color:black;
+   text-align: left;
+   padding-top:0px;
+   padding-left:85px;
+   font-size:0.5cm;
+}
+#quien-soy{
+    text-align: center;
+}
+
+.estudios h2 {
+    font-size: 1.2cm;
+    font-weight: bolder;
+    color:black;
+    padding-left:150px;
+    padding-bottom: 40px;
+}
+.estudios h4{
+    color:black;
+    padding-top:5px;
+    padding-bottom: 0;
+}
+.estudios table{
+   border-color: #76BFF9;
+   text-align: center;
+}
+#logo-fich{
+    width: 150px;
+    height: 60px;
+}
+#logos-estudios{
+    width: 150px;
+    height: 50px;
+}
+
+.experiencia-lab h2{
+    font-size: 1.2cm;
+    font-weight: bolder;
+    color:black;
+    padding-left:150px;
+    padding-bottom: 40px;
+}
+.experiencia-lab h4{
+    color:black;
+}
+.experiencia-lab table{
+    border-color: #C576F9;
+}
+
+.habilidades h2{
+    font-size: 1.2cm;
+    font-weight: bolder;
+    color:black;
+    padding-left:150px;
+    padding-bottom: 40px;
+}
+.habilidades h4{
+    color:black;
+}
+.proyectos h2{
+    font-size: 1.2cm;
+    font-weight: bolder;
+    color:black;
+    padding-left:150px;
+    padding-bottom: 40px;
+}
+.proyectos h4{
+    color:black;
+}
+.proyectos table{
+    border-color:#FD3C76 ;
+}
+.contacto h2{
+    font-size: 1.2cm;
+    font-weight: bolder;
+    color:black;
+    text-align: center;
+    padding-bottom: 40px;
+}
+#contacto-icons{
+    padding-left: 70px;
+}
+.progress{
+    padding-left:0;
+    padding-right:0;
+}
